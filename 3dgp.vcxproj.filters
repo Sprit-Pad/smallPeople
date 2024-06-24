@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9f64f4ff-d9e0-43d7-88e1-13e6d3656a89}</UniqueIdentifier>
+      <Extensions>hlsl;hlsli</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{5d2ed881-4062-49d0-a1ce-86240074d016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{e9e43e57-43a8-451d-9ab0-31198bf52910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{887c50b2-2899-4c39-92b1-684728d6ba99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Manager">
+      <UniqueIdentifier>{6ff60837-bba6-4355-b881-98eb9ceebff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ManagerCpp">
+      <UniqueIdentifier>{4103ae79-1f5e-481c-b1fc-d5c8545f39f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene">
+      <UniqueIdentifier>{eaa774b5-f03c-407a-a1c0-f875d659bb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Framework">
+      <UniqueIdentifier>{72bca12b-2db1-4907-bfbe-b71234d6e082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Shader">
+      <UniqueIdentifier>{6faae429-d5bc-4941-8676-ca68440e7ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Shader\2D">
+      <UniqueIdentifier>{aeab0f3e-c831-4867-9950-079f0e48ac79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Shader\Model">
+      <UniqueIdentifier>{4e0e93fc-0541-41fc-bc24-fb9039b0dabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Collusion">
+      <UniqueIdentifier>{58fe0545-d57b-43f5-ba9d-ff25da950fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\shader">
+      <UniqueIdentifier>{3b1a4cf8-70e5-4f5d-a7cc-b889c506e0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\shader\Model">
+      <UniqueIdentifier>{689bfca8-f9d9-4236-8b67-d7b00fa2c5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\shader\2D">
+      <UniqueIdentifier>{9dd571b5-f778-4f80-97a6-2909dd8b44ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Collusion">
+      <UniqueIdentifier>{6f0f884c-8ac4-4d0e-8880-53238a440578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Title">
+      <UniqueIdentifier>{4857b465-bab3-4f72-b33f-72aea8a25ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene">
+      <UniqueIdentifier>{b586d2fb-1851-4f99-8e60-2953529a6866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene\Game">
+      <UniqueIdentifier>{6dbdaedc-5125-42e9-b7b0-7a084e93f54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene\Game\Switch">
+      <UniqueIdentifier>{3a6b21a5-c623-434c-9b8b-f35129f3c0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene\Game\Stage">
+      <UniqueIdentifier>{4417b7ae-03bb-444c-80de-b3625568c4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene\Game\Character">
+      <UniqueIdentifier>{d2e6ff97-be34-4dc8-b70c-8b9708aef97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene\Game\Character\Player">
+      <UniqueIdentifier>{11452c2e-c7ba-422d-97ee-966b60969a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Framework">
+      <UniqueIdentifier>{b5c72a50-248e-4c79-b2c8-ca0141e17653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Framework\MathF">
+      <UniqueIdentifier>{1fd24a8b-61c9-4057-8ce9-c40116b3e382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene\Game">
+      <UniqueIdentifier>{845f8466-fab5-4f6a-861a-fd7589897099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene\Title">
+      <UniqueIdentifier>{c85f5e18-3060-40e4-98b4-75db06f5e719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene\Game\Character">
+      <UniqueIdentifier>{051869bb-f0f4-4ac1-8096-b2993c191489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene\Game\Character\Player">
+      <UniqueIdentifier>{6d743878-7cdf-4f5e-ac69-2630522c04b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene\Game\Stage">
+      <UniqueIdentifier>{17a018cf-e2b1-40a6-8dd2-2f3e5bc7f351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scene\Game\Switch">
+      <UniqueIdentifier>{2b0ab9cd-a67a-41d6-a8a3-5f28ad368352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Framework\Mathf">
+      <UniqueIdentifier>{4659847b-0dc8-4cd2-947d-6360d2074f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Framework\Timer_high">
+      <UniqueIdentifier>{0116c84e-0379-47fb-b516-abd07c066ec6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_ja_gryph_ranges.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GamePad.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\CameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchManager.cpp">
+      <Filter>Sources\ManagerCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Sources\ManagerCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Sources\ManagerCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="particles.cpp">
+      <Filter>Sources\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Sources\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Sources\shader\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="framebuffer.cpp">
+      <Filter>Sources\shader\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="fullscreen_quad.cpp">
+      <Filter>Sources\shader\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="husk_particles.cpp">
+      <Filter>Sources\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Sources\Collusion</Filter>
+    </ClCompile>
+    <ClCompile Include="raycast.cpp">
+      <Filter>Sources\Collusion</Filter>
+    </ClCompile>
+    <ClCompile Include="geometric_primitive.cpp">
+      <Filter>Sources\shader\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Sources\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="static_mesh.cpp">
+      <Filter>Sources\shader\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_batch.cpp">
+      <Filter>Sources\shader\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Sources\shader\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="skinned_mesh.cpp">
+      <Filter>Sources\shader\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Sources\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Sources\Scene\Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources\Scene\Game\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMoveFloor.cpp">
+      <Filter>Sources\Scene\Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMain.cpp">
+      <Filter>Sources\Scene\Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchGoal.cpp">
+      <Filter>Sources\Scene\Game\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchMain.cpp">
+      <Filter>Sources\Scene\Game\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchFloorButton.cpp">
+      <Filter>Sources\Scene\Game\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>Sources\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneClear.cpp">
+      <Filter>Sources\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoading.cpp">
+      <Filter>Sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>Sources\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MathF.cpp">
+      <Filter>Sources\Framework\MathF</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GamePad.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Headers\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoading.h">
+      <Filter>Headers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Headers\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Headers\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framebuffer.h">
+      <Filter>Headers\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="husk_particles.h">
+      <Filter>Headers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Headers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderContext.h">
+      <Filter>Headers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Headers\Shader\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="fullscreen_quad.h">
+      <Filter>Headers\Shader\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_batch.h">
+      <Filter>Headers\Shader\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Headers\Shader\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="particles.h">
+      <Filter>Headers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="static_mesh.h">
+      <Filter>Headers\Shader\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="skinned_mesh.h">
+      <Filter>Headers\Shader\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="geometric_primitive.h">
+      <Filter>Headers\Shader\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Headers\Collusion</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Headers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="raycast.h">
+      <Filter>Headers\Collusion</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Headers\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame.h">
+      <Filter>Headers\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneClear.h">
+      <Filter>Headers\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchMain.h">
+      <Filter>Headers\Scene\Game\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchGoal.h">
+      <Filter>Headers\Scene\Game\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchFloorButton.h">
+      <Filter>Headers\Scene\Game\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Headers\Scene\Game\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMoveFloor.h">
+      <Filter>Headers\Scene\Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMain.h">
+      <Filter>Headers\Scene\Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Headers\Scene\Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers\Scene\Game\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelType.h">
+      <Filter>Headers\Shader\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Headers\Scene\Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MathF.h">
+      <Filter>Headers\Framework\Mathf</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Headers\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="high_resolution_timer.h">
+      <Filter>Headers\Framework\Timer_high</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sprite.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="geometric_primitive.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="static_mesh.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skinned_mesh.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fullscreen_quad.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="husk_particles.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="particle.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="sky_box.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="sprite_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="sprite_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="effect_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="geometric_primitive_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="geometric_primitive_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="static_mesh_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="static_mesh_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="wireframe.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="skinned_mesh_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="skinned_mesh_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fullscreen_quad_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="fullscreen_quad_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="luminance_extraction_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="blur_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="husk_particles_cs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="husk_particles_gs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="husk_particles_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="husk_particles_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="accumulate_husk_particles_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="particle_cs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="particle_gs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="particle_initializer_cs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="particle_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="particle_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="snowParticle.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="SnowUpdate_cs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="RainParticleInitialize.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="RainParticleUpdate.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="sky_box_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="sky_box_vs.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ConfettiParticleInitialize.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ConfettiParticleUpdate.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
